@@ -1,5 +1,6 @@
+import Card from "./Card"
 export default function Home() {
   return (
-    <div>getting rid of boilerplate code</div>
+    <Card/>
   )
 }
