@@ -1,8 +1,14 @@
+import Form from "./Form"
+import Title from "./Title"
 import ToDoList from "./ToDoList"
 export default function Home() {
-  const sampleName:string ="Jonathan"
+  const name:string ="Jonathan"
   const sampleTasks:string[]=["walk the dog","call mom","clean room","buy groceries"]
   return (
-    <ToDoList name={sampleName} tasks={sampleTasks}/>
+    <div>
+      <Title name={name}/>
+      <Form/>
+    <ToDoList tasks={sampleTasks}/>
+    </div>
   )
 }
