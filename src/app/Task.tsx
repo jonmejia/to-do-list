@@ -1,5 +1,5 @@
 'use client'
-const Card = (props:any) =>{
+const Task = (props:any) =>{
     const handleDelete = () =>{
         console.log("delete card")
     }
@@ -10,4 +10,4 @@ const Card = (props:any) =>{
         </div>
     )
 }
-export default Card;
+export default Task;
