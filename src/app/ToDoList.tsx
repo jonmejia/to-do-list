@@ -1,9 +1,15 @@
+'use client'
 import Card from "./Card";
 
 const ToDoList = (props: any) => {
-    const handleClick = () =>{
-        console.log("nice")
-    }
+
+
+
+
+  const handleClick = () =>{
+    console.log("this works")
+  }
+
   return (
     <div className="flex justify-center mt-12">
       <div className="max-w-sm bg-green-200 rounded overflow-hidden drop-shadow-2xl">
